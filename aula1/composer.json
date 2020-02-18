@@ -1,0 +1,26 @@
+{
+  "name": "welsonlagoa/projetoyaula1",
+  "description": "aprendo o composer hehe",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "welson de jesus",
+      "email": "welsonjs36@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "source\\": "source/"
+    },
+    "files": [
+      "source/config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.1.*"
+  }
+}
